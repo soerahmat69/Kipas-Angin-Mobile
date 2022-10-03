@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seekBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="33dp"
+        android:text="Lights"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:text="Dewa Kipas."
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:text="Speed"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="558dp"
+        android:layout_height="524dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/png_clipart_light_hand_fan_illustration_red_folding_fan_and_wind_photography_technic_removebg_preview__1_"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="33dp"
+        android:text="ToggleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="177dp"
+        android:layout_height="35dp"
+        android:max="2"
+        android:progress="3"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
